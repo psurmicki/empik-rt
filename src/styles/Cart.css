@@ -1,0 +1,14 @@
+.CartValueText {
+  font-weight: bold;
+}
+
+.CartRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.CartColumn {
+  width: 50%;
+  display: flex;
+}

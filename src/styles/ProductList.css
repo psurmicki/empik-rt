@@ -1,0 +1,34 @@
+.ProductListContainer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  border: 5px solid rgb(243, 243, 243);
+  margin-bottom: 10px;
+}
+
+.ProductListRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ProductListColumn {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ProductName {
+  font-weight: bold;
+}
+
+.InfoText {
+  font-weight: bold;
+}
+
+.Badge {
+  font-size: 90% !important;
+}
+
